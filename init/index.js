@@ -29,13 +29,13 @@ const initDB = async () => {
  
     await Bollyweb.insertMany(bollwebData.data);
 
-    // await bollymovie.deleteMany({});
+    await bollymovie.deleteMany({});
 
-    // await bollymovie.insertMany(bollymoviedata.data);
+    await bollymovie.insertMany(bollymoviedata.data);
 
-    // await hollymovie.deleteMany({});
+    await hollymovie.deleteMany({});
     
-    // await hollymovie.insertMany(hollymoviedata.data);
+    await hollymovie.insertMany(hollymoviedata.data);
 
     await hollyweb.deleteMany({});
    

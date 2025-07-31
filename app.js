@@ -8,7 +8,7 @@ console.log(process.env.secret);
 
 const express = require("express");
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 3000;
 const mongoose = require("mongoose");
 const path = require("path");
 const methodOverride = require("method-override");
@@ -48,13 +48,14 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 
 // MongoDB Connection
-mongoose.connect("mongodb://127.0.0.1:27017/cinevibes")
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/cinevibes";
+mongoose.connect(MONGODB_URI)
   .then(() => console.log("✅ Connected to MongoDB"))
   .catch((err) => console.error("❌ MongoDB connection error:", err));
 
 // Session & Flash config
 const sessionOptions = {
-  secret: "cinevibesSecretKey",
+  secret: process.env.SECRET || "cinevibesSecretKey",
   resave: false,
   saveUninitialized: true,
   cookie: {
@@ -74,7 +75,7 @@ passport.deserializeUser(User.deserializeUser());
 
 // Locals for flash & current user
 // ✅ Must come BEFORE your locals setup
-app.use(session({ secret: 'keyboardcat', resave: false, saveUninitialized: false }));
+app.use(session({ secret: process.env.SECRET || 'keyboardcat', resave: false, saveUninitialized: false }));
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -839,5 +840,5 @@ app.use((err, req, res, next) => {
 
 // Start server
 app.listen(port, '0.0.0.0', () => {
-  console.log("Server running on http://192.168.0.104:8080");
+  console.log(`Server running on http://localhost:${port}`);
 });

@@ -6,7 +6,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.4,
-    "imagepath": "/bollywebimages/1.jpg",
+    "imagepath": "/bollyimages/1.jpg",
     "languages": ["Hindi", "English"]
   },
   {
@@ -16,7 +16,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/2.jpg",
+    "imagepath": "/bollyimages/2.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -26,7 +26,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/3.jpg",
+    "imagepath": "/bollyimages/3.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -36,7 +36,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.0,
-    "imagepath": "/bollywebimages/4.jpg",
+    "imagepath": "/bollyimages/4.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -46,7 +46,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.9,
-    "imagepath": "/bollywebimages/5.jpg",
+    "imagepath": "/bollyimages/5.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -56,7 +56,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/6.jpg",
+    "imagepath": "/bollyimages/6.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -66,7 +66,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.4,
-    "imagepath": "/bollywebimages/7.jpg",
+    "imagepath": "/bollyimages/7.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -76,7 +76,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/8.jpg",
+    "imagepath": "/bollyimages/8.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -86,7 +86,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.9,
-    "imagepath": "/bollywebimages/9.jpg",
+    "imagepath": "/bollyimages/9.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -96,7 +96,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/10.jpg",
+    "imagepath": "/bollyimages/10.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -106,7 +106,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.2,
-    "imagepath": "/bollywebimages/11.jpg",
+    "imagepath": "/bollyimages/11.jpg",
     "languages": ["Hindi"]
   },
    {
@@ -116,7 +116,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/12.jpg",
+    "imagepath": "/bollyimages/12.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -126,7 +126,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/13.jpg",
+    "imagepath": "/bollyimages/13.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -136,7 +136,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/14.jpg",
+    "imagepath": "/bollyimages/14.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -146,7 +146,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 7.9,
-    "imagepath": "/bollywebimages/15.jpg",
+    "imagepath": "/bollyimages/15.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -156,7 +156,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.3,
-    "imagepath": "/bollywebimages/16.jpg",
+    "imagepath": "/bollyimages/16.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -166,7 +166,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.4,
-    "imagepath": "/bollywebimages/17.jpg",
+    "imagepath": "/bollyimages/17.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -176,7 +176,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/18.jpg",
+    "imagepath": "/bollyimages/18.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -186,7 +186,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 6.4,
-    "imagepath": "/bollywebimages/19.jpg",
+    "imagepath": "/bollyimages/19.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -196,7 +196,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.8,
-    "imagepath": "/bollywebimages/20.jpg",
+    "imagepath": "/bollyimages/20.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -206,7 +206,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/21.jpg",
+    "imagepath": "/bollyimages/21.jpg",
     "languages": ["Hindi"]
   },
 
@@ -217,7 +217,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 8.0,
-    "imagepath": "/bollywebimages/23.jpg",
+    "imagepath": "/bollyimages/23.jpg",
     "languages": ["Hindi"]
   },
 
@@ -228,7 +228,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.3,
-    "imagepath": "/bollywebimages/24.jpg",
+    "imagepath": "/bollyimages/24.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -238,7 +238,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 6.0,
-    "imagepath": "/bollywebimages/25.jpg",
+    "imagepath": "/bollyimages/25.jpg",
     "languages": ["Hindi"]
   },
  {
@@ -248,7 +248,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 5.8,
-    "imagepath": "/bollywebimages/26.jpg",
+    "imagepath": "/bollyimages/26.jpg",
     "languages": ["Hindi"]
   },
     {
@@ -258,7 +258,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 8.3,
-    "imagepath": "/bollywebimages/27.jpg",
+    "imagepath": "/bollyimages/27.jpg",
     "languages": ["Hindi"]
   },
  
@@ -269,7 +269,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 6.6,
-    "imagepath": "/bollywebimages/28.jpg",
+    "imagepath": "/bollyimages/28.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -279,7 +279,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/29.jpg",
+    "imagepath": "/bollyimages/29.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -289,7 +289,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/30.jpg",
+    "imagepath": "/bollyimages/30.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -299,7 +299,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 6.0,
-    "imagepath": "/bollywebimages/31.jpg",
+    "imagepath": "/bollyimages/31.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -309,7 +309,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/32.jpg",
+    "imagepath": "/bollyimages/32.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -319,7 +319,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/33.jpg",
+    "imagepath": "/bollyimages/33.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -329,7 +329,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.0,
-    "imagepath": "/bollywebimages/34.jpg",
+    "imagepath": "/bollyimages/34.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -339,7 +339,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 8.0,
-    "imagepath": "/bollywebimages/35.jpg",
+    "imagepath": "/bollyimages/35.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -349,7 +349,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.4,
-    "imagepath": "/bollywebimages/36.jpg",
+    "imagepath": "/bollyimages/36.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -359,7 +359,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/37.jpg",
+    "imagepath": "/bollyimages/37.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -369,7 +369,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 6.8,
-    "imagepath": "/bollywebimages/38.jpg",
+    "imagepath": "/bollyimages/38.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -379,7 +379,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/39.jpg",
+    "imagepath": "/bollyimages/39.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -389,7 +389,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 6.9,
-    "imagepath": "/bollywebimages/40.jpg",
+    "imagepath": "/bollyimages/40.jpg",
     "languages": ["Hindi"]
   },
 
@@ -400,7 +400,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 6.5,
-    "imagepath": "/bollywebimages/41.jpg",
+    "imagepath": "/bollyimages/41.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -410,7 +410,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 6.4,
-    "imagepath": "/bollywebimages/42.jpg",
+    "imagepath": "/bollyimages/42.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -420,7 +420,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 6.8,
-    "imagepath": "/bollywebimages/43.jpg",
+    "imagepath": "/bollyimages/43.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -430,7 +430,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.0,
-    "imagepath": "/bollywebimages/44.jpg",
+    "imagepath": "/bollyimages/44.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -440,7 +440,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/45.jpg",
+    "imagepath": "/bollyimages/45.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -450,7 +450,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.2,
-    "imagepath": "/bollywebimages/46.jpg",
+    "imagepath": "/bollyimages/46.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -460,7 +460,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.0,
-    "imagepath": "/bollywebimages/47.jpg",
+    "imagepath": "/bollyimages/47.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -470,7 +470,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 7.2,
-    "imagepath": "/bollywebimages/48.jpg",
+    "imagepath": "/bollyimages/48.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -480,7 +480,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.7,
-    "imagepath": "/bollywebimages/49.jpg",
+    "imagepath": "/bollyimages/49.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -490,7 +490,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/50.jpg",
+    "imagepath": "/bollyimages/50.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -500,7 +500,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.4,
-    "imagepath": "/bollywebimages/51.jpg",
+    "imagepath": "/bollyimages/51.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -510,7 +510,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.9,
-    "imagepath": "/bollywebimages/52.jpg",
+    "imagepath": "/bollyimages/52.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -520,7 +520,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.0,
-    "imagepath": "/bollywebimages/53.jpg",
+    "imagepath": "/bollyimages/53.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -530,7 +530,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 6.5,
-    "imagepath": "/bollywebimages/54.jpg",
+    "imagepath": "/bollyimages/54.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -540,7 +540,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 6.9,
-    "imagepath": "/bollywebimages/55.jpg",
+    "imagepath": "/bollyimages/55.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -550,7 +550,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/56.jpg",
+    "imagepath": "/bollyimages/56.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -560,7 +560,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/57.jpg",
+    "imagepath": "/bollyimages/57.jpg",
     "languages": ["Hindi"]
   },
  {
@@ -570,7 +570,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 7.4,
-    "imagepath": "/bollywebimages/58.jpg",
+    "imagepath": "/bollyimages/58.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -580,7 +580,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 6.5,
-    "imagepath": "/bollywebimages/59.jpg",
+    "imagepath": "/bollyimages/59.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -590,7 +590,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/60.jpg",
+    "imagepath": "/bollyimages/60.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -600,7 +600,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/61.jpg",
+    "imagepath": "/bollyimages/61.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -610,7 +610,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.5,
-    "imagepath": "/bollywebimages/62.jpg",
+    "imagepath": "/bollyimages/62.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -620,7 +620,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 6.0,
-    "imagepath": "/bollywebimages/63.jpg",
+    "imagepath": "/bollyimages/63.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -630,7 +630,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.9,
-    "imagepath": "/bollywebimages/64.jpg",
+    "imagepath": "/bollyimages/64.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -640,7 +640,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.4,
-    "imagepath": "/bollywebimages/65.jpg",
+    "imagepath": "/bollyimages/65.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -650,7 +650,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.0,
-    "imagepath": "/bollywebimages/66.jpg",
+    "imagepath": "/bollyimages/66.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -660,7 +660,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 5.0,
-    "imagepath": "/bollywebimages/67.jpg",
+    "imagepath": "/bollyimages/67.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -670,7 +670,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.0,
-    "imagepath": "/bollywebimages/68.jpg",
+    "imagepath": "/bollyimages/68.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -680,7 +680,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 6.3,
-    "imagepath": "/bollywebimages/69.jpg",
+    "imagepath": "/bollyimages/69.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -690,7 +690,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 6.0,
-    "imagepath": "/bollywebimages/70.jpg",
+    "imagepath": "/bollyimages/70.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -700,7 +700,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.4,
-    "imagepath": "/bollywebimages/71.jpg",
+    "imagepath": "/bollyimages/71.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -710,7 +710,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.0,
-    "imagepath": "/bollywebimages/72.jpg",
+    "imagepath": "/bollyimages/72.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -720,7 +720,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 6.9,
-    "imagepath": "/bollywebimages/73.jpg",
+    "imagepath": "/bollyimages/73.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -730,7 +730,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/74.jpg",
+    "imagepath": "/bollyimages/74.jpg",
     "languages": ["Hindi"]
   },
 {
@@ -740,7 +740,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.9,
-    "imagepath": "/bollywebimages/75.jpg",
+    "imagepath": "/bollyimages/75.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -750,7 +750,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 6.5,
-    "imagepath": "/bollywebimages/76.jpg",
+    "imagepath": "/bollyimages/76.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -760,7 +760,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/77.jpg",
+    "imagepath": "/bollyimages/77.jpg",
     "languages": ["Kannada", "Hindi"]
   },
   {
@@ -770,7 +770,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/78.jpg",
+    "imagepath": "/bollyimages/78.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -780,7 +780,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.4,
-    "imagepath": "/bollywebimages/79.jpg",
+    "imagepath": "/bollyimages/79.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -790,7 +790,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 6.8,
-    "imagepath": "/bollywebimages/80.jpg",
+    "imagepath": "/bollyimages/80.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -800,7 +800,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/81.jpg",
+    "imagepath": "/bollyimages/81.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -810,7 +810,7 @@ const bollymovie=[
     "where_to_watch": "ALT Balaji",
     "iconpath": "/icons/AltBalaji.png",
     "imdb_rating": 7.1,
-    "imagepath": "/bollywebimages/82.jpg",
+    "imagepath": "/bollyimages/82.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -820,7 +820,7 @@ const bollymovie=[
     "where_to_watch": "JioCinema",
     "iconpath": "/icons/JioCinema.png",
     "imdb_rating": 6.3,
-    "imagepath": "/bollywebimages/83.jpg",
+    "imagepath": "/bollyimages/83.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -830,7 +830,7 @@ const bollymovie=[
     "where_to_watch": "JioCinema",
     "iconpath": "/icons/JioCinema.png",
     "imdb_rating": 7.0,
-    "imagepath": "/bollywebimages/84.jpg",
+    "imagepath": "/bollyimages/84.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -840,7 +840,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 7.3,
-    "imagepath": "/bollywebimages/85.jpg",
+    "imagepath": "/bollyimages/85.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -850,7 +850,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.3,
-    "imagepath": "/bollywebimages/86.jpg",
+    "imagepath": "/bollyimages/86.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -860,7 +860,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/87.jpg",
+    "imagepath": "/bollyimages/87.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -870,7 +870,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 6.0,
-    "imagepath": "/bollywebimages/88.jpg",
+    "imagepath": "/bollyimages/88.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -880,7 +880,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/89.jpg",
+    "imagepath": "/bollyimages/89.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -890,7 +890,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/90.jpg",
+    "imagepath": "/bollyimages/90.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -900,7 +900,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.4,
-    "imagepath": "/bollywebimages/91.jpg",
+    "imagepath": "/bollyimages/91.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -910,7 +910,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.0,
-    "imagepath": "/bollywebimages/92.jpg",
+    "imagepath": "/bollyimages/92.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -920,7 +920,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 2.5,
-    "imagepath": "/bollywebimages/93.jpg",
+    "imagepath": "/bollyimages/93.jpg",
     "languages": ["Hindi"]
   },
 {
@@ -930,7 +930,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.4,
-    "imagepath": "/bollywebimages/94.jpg",
+    "imagepath": "/bollyimages/94.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -940,7 +940,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 6.0,
-    "imagepath": "/bollywebimages/95.jpg",
+    "imagepath": "/bollyimages/95.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -950,7 +950,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/96.jpg",
+    "imagepath": "/bollyimages/96.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -960,7 +960,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/97.jpg",
+    "imagepath": "/bollyimages/97.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -970,7 +970,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/98.jpg",
+    "imagepath": "/bollyimages/98.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -980,7 +980,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 7.9,
-    "imagepath": "/bollywebimages/99.jpg",
+    "imagepath": "/bollyimages/99.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -990,7 +990,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 6.7,
-    "imagepath": "/bollywebimages/100.jpg",
+    "imagepath": "/bollyimages/100.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1000,7 +1000,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.0,
-    "imagepath": "/bollywebimages/101.jpg",
+    "imagepath": "/bollyimages/101.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1010,7 +1010,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 6.0,
-    "imagepath": "/bollywebimages/102.jpg",
+    "imagepath": "/bollyimages/102.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1020,7 +1020,7 @@ const bollymovie=[
     "where_to_watch": "SonyLIV",
     "iconpath": "/icons/SonyLiv.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/103.jpg",
+    "imagepath": "/bollyimages/103.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1030,7 +1030,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/104.jpg",
+    "imagepath": "/bollyimages/104.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1040,7 +1040,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/105.jpg",
+    "imagepath": "/bollyimages/105.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1050,7 +1050,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/106.jpg",
+    "imagepath": "/bollyimages/106.jpg",
     "languages": ["Telugu", "Hindi"]
   },
   {
@@ -1060,7 +1060,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.4,
-    "imagepath": "/bollywebimages/107.jpg",
+    "imagepath": "/bollyimages/107.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1070,7 +1070,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/108.jpg",
+    "imagepath": "/bollyimages/108.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1080,7 +1080,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 6.2,
-    "imagepath": "/bollywebimages/109.jpg",
+    "imagepath": "/bollyimages/109.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1090,7 +1090,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 5.6,
-    "imagepath": "/bollywebimages/110.jpg",
+    "imagepath": "/bollyimages/110.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1100,7 +1100,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.7,
-    "imagepath": "/bollywebimages/111.jpg",
+    "imagepath": "/bollyimages/111.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1110,7 +1110,7 @@ const bollymovie=[
     "where_to_watch": "ALT Balaji",
     "iconpath": "/icons/AltBalaji.png",
     "imdb_rating": 4.5,
-    "imagepath": "/bollywebimages/112.jpg",
+    "imagepath": "/bollyimages/112.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1120,7 +1120,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 7.4,
-    "imagepath": "/bollywebimages/113.jpg",
+    "imagepath": "/bollyimages/113.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1130,7 +1130,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/114.jpg",
+    "imagepath": "/bollyimages/114.jpg",
     "languages": ["Hindi"]
   },
  {
@@ -1140,7 +1140,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.7,
-    "imagepath": "/bollywebimages/115.jpg",
+    "imagepath": "/bollyimages/115.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1150,7 +1150,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 7.0,
-    "imagepath": "/bollywebimages/116.jpg",
+    "imagepath": "/bollyimages/116.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1160,7 +1160,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.0,
-    "imagepath": "/bollywebimages/117.jpg",
+    "imagepath": "/bollyimages/117.jpg",
     "languages": ["Telugu", "Hindi"]
   },
   {
@@ -1170,7 +1170,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.4,
-    "imagepath": "/bollywebimages/118.jpg",
+    "imagepath": "/bollyimages/118.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1180,7 +1180,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 5.8,
-    "imagepath": "/bollywebimages/119.jpg",
+    "imagepath": "/bollyimages/119.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1190,7 +1190,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 6.8,
-    "imagepath": "/bollywebimages/120.jpg",
+    "imagepath": "/bollyimages/120.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1200,7 +1200,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.0,
-    "imagepath": "/bollywebimages/121.jpg",
+    "imagepath": "/bollyimages/121.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1210,7 +1210,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/122.jpg",
+    "imagepath": "/bollyimages/122.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1220,7 +1220,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.8,
-    "imagepath": "/bollywebimages/123.jpg",
+    "imagepath": "/bollyimages/123.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1230,7 +1230,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.8,
-    "imagepath": "/bollywebimages/124.jpg",
+    "imagepath": "/bollyimages/124.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1240,7 +1240,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/125.jpg",
+    "imagepath": "/bollyimages/125.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1250,7 +1250,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/126.jpg",
+    "imagepath": "/bollyimages/126.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1260,7 +1260,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 7.1,
-    "imagepath": "/bollywebimages/127.jpg",
+    "imagepath": "/bollyimages/127.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1270,7 +1270,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 6.3,
-    "imagepath": "/bollywebimages/128.jpg",
+    "imagepath": "/bollyimages/128.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1280,7 +1280,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 5.0,
-    "imagepath": "/bollywebimages/129.jpg",
+    "imagepath": "/bollyimages/129.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1290,7 +1290,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.0,
-    "imagepath": "/bollywebimages/130.jpg",
+    "imagepath": "/bollyimages/130.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1300,7 +1300,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 7.8,
-    "imagepath": "/bollywebimages/131.jpg",
+    "imagepath": "/bollyimages/131.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1310,7 +1310,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.2,
-    "imagepath": "/bollywebimages/132.jpg",
+    "imagepath": "/bollyimages/132.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1320,7 +1320,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.3,
-    "imagepath": "/bollywebimages/133.jpg",
+    "imagepath": "/bollyimages/133.jpg",
     "languages": ["Hindi"]
   },
 {
@@ -1330,7 +1330,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.4,
-    "imagepath": "/bollywebimages/134.jpg",
+    "imagepath": "/bollyimages/134.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1340,7 +1340,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.2,
-    "imagepath": "/bollywebimages/135.jpg",
+    "imagepath": "/bollyimages/135.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1350,7 +1350,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/136.jpg",
+    "imagepath": "/bollyimages/136.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1360,7 +1360,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.3,
-    "imagepath": "/bollywebimages/137.jpg",
+    "imagepath": "/bollyimages/137.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1370,7 +1370,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.4,
-    "imagepath": "/bollywebimages/138.jpg",
+    "imagepath": "/bollyimages/138.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1380,7 +1380,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.8,
-    "imagepath": "/bollywebimages/139.jpg",
+    "imagepath": "/bollyimages/139.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1390,7 +1390,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/140.jpg",
+    "imagepath": "/bollyimages/140.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1400,7 +1400,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/141.jpg",
+    "imagepath": "/bollyimages/141.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1410,7 +1410,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 6.0,
-    "imagepath": "/bollywebimages/142.jpg",
+    "imagepath": "/bollyimages/142.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1420,7 +1420,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.8,
-    "imagepath": "/bollywebimages/143.jpg",
+    "imagepath": "/bollyimages/143.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1430,7 +1430,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/144.jpg",
+    "imagepath": "/bollyimages/144.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1440,7 +1440,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 6.5,
-    "imagepath": "/bollywebimages/145.jpg",
+    "imagepath": "/bollyimages/145.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1450,7 +1450,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/146.jpg",
+    "imagepath": "/bollyimages/146.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1460,7 +1460,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 6.8,
-    "imagepath": "/bollywebimages/147.jpg",
+    "imagepath": "/bollyimages/147.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1470,7 +1470,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 5.4,
-    "imagepath": "/bollywebimages/148.jpg",
+    "imagepath": "/bollyimages/148.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1480,7 +1480,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/149.jpg",
+    "imagepath": "/bollyimages/149.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1490,7 +1490,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/150.jpg",
+    "imagepath": "/bollyimages/150.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1500,7 +1500,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.7,
-    "imagepath": "/bollywebimages/151.jpg",
+    "imagepath": "/bollyimages/151.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1510,7 +1510,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 6.9,
-    "imagepath": "/bollywebimages/152.jpg",
+    "imagepath": "/bollyimages/152.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1520,7 +1520,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/153.jpg",
+    "imagepath": "/bollyimages/153.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1530,7 +1530,7 @@ const bollymovie=[
     "where_to_watch": "JioCinema",
     "iconpath": "/icons/JioCinema.png",
     "imdb_rating": 7.4,
-    "imagepath": "/bollywebimages/154.jpg",
+    "imagepath": "/bollyimages/154.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1540,7 +1540,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.4,
-    "imagepath": "/bollywebimages/155.jpg",
+    "imagepath": "/bollyimages/155.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1550,7 +1550,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/156.jpg",
+    "imagepath": "/bollyimages/156.jpg",
     "languages": ["Tamil", "Hindi"]
   },
   {
@@ -1560,7 +1560,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/Zee5.png",
     "imdb_rating": 6.7,
-    "imagepath": "/bollywebimages/157.jpg",
+    "imagepath": "/bollyimages/157.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1570,7 +1570,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.9,
-    "imagepath": "/bollywebimages/158.jpg",
+    "imagepath": "/bollyimages/158.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1580,7 +1580,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.0,
-    "imagepath": "/bollywebimages/159.jpg",
+    "imagepath": "/bollyimages/159.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1590,7 +1590,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.9,
-    "imagepath": "/bollywebimages/160.jpg",
+    "imagepath": "/bollyimages/160.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1600,7 +1600,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/161.jpg",
+    "imagepath": "/bollyimages/161.jpg",
     "languages": ["Hindi", "English"]
   },
   {
@@ -1610,7 +1610,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/162.jpg",
+    "imagepath": "/bollyimages/162.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1620,7 +1620,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/163.jpg",
+    "imagepath": "/bollyimages/163.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1630,7 +1630,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/164.jpg",
+    "imagepath": "/bollyimages/164.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1640,7 +1640,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/165.jpg",
+    "imagepath": "/bollyimages/165.jpg",
     "languages": ["Hindi", "Urdu"]
   },
   {
@@ -1650,7 +1650,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.3,
-    "imagepath": "/bollywebimages/166.jpg",
+    "imagepath": "/bollyimages/166.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1660,7 +1660,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.7,
-    "imagepath": "/bollywebimages/167.jpg",
+    "imagepath": "/bollyimages/167.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1670,7 +1670,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 7.4,
-    "imagepath": "/bollywebimages/168.jpg",
+    "imagepath": "/bollyimages/168.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1680,7 +1680,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/169.jpg",
+    "imagepath": "/bollyimages/169.jpg",
     "languages": ["Hindi"]
   },
 {
@@ -1690,7 +1690,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/170.jpg",
+    "imagepath": "/bollyimages/170.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1700,7 +1700,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.1,
-    "imagepath": "/bollywebimages/171.jpg",
+    "imagepath": "/bollyimages/171.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1710,7 +1710,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.1,
-    "imagepath": "/bollywebimages/172.jpg",
+    "imagepath": "/bollyimages/172.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1720,7 +1720,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.3,
-    "imagepath": "/bollywebimages/173.jpg",
+    "imagepath": "/bollyimages/173.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1730,7 +1730,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/Amazon_Prime_Video.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/174.jpg",
+    "imagepath": "/bollyimages/174.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1740,7 +1740,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.3,
-    "imagepath": "/bollywebimages/175.jpg",
+    "imagepath": "/bollyimages/175.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1750,7 +1750,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/Amazon_Prime_Video.png",
     "imdb_rating": 7.2,
-    "imagepath": "/bollywebimages/176.jpg",
+    "imagepath": "/bollyimages/176.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1760,7 +1760,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.3,
-    "imagepath": "/bollywebimages/178.jpg",
+    "imagepath": "/bollyimages/178.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1770,7 +1770,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.7,
-    "imagepath": "/bollywebimages/177.jpg",
+    "imagepath": "/bollyimages/177.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1780,7 +1780,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.2,
-    "imagepath": "/bollywebimages/179.jpg",
+    "imagepath": "/bollyimages/179.jpg",
     "languages": ["Hindi", "English"]
   },
   {
@@ -1790,7 +1790,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/180.jpg",
+    "imagepath": "/bollyimages/180.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1800,7 +1800,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/ZEE5.png",
     "imdb_rating": 4.6,
-    "imagepath": "/bollywebimages/181.jpg",
+    "imagepath": "/bollyimages/181.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1810,7 +1810,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/Amazon_Prime_Video.png",
     "imdb_rating": 7.3,
-    "imagepath": "/bollywebimages/182.jpg",
+    "imagepath": "/bollyimages/182.jpg",
     "languages": ["Hindi", "English", "Punjabi"]
   },
   {
@@ -1820,7 +1820,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.7,
-    "imagepath": "/bollywebimages/183.jpg",
+    "imagepath": "/bollyimages/183.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1830,7 +1830,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.8,
-    "imagepath": "/bollywebimages/184.jpg",
+    "imagepath": "/bollyimages/184.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1840,7 +1840,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/Amazon_Prime_Video.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/185.jpg",
+    "imagepath": "/bollyimages/185.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1850,7 +1850,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/186.jpg",
+    "imagepath": "/bollyimages/186.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1860,7 +1860,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.4,
-    "imagepath": "/bollywebimages/187.jpg",
+    "imagepath": "/bollyimages/187.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1870,7 +1870,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/Amazon_Prime_Video.png",
     "imdb_rating": 6.6,
-    "imagepath": "/bollywebimages/188.jpg",
+    "imagepath": "/bollyimages/188.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1880,7 +1880,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 8.0,
-    "imagepath": "/bollywebimages/189.jpg",
+    "imagepath": "/bollyimages/189.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1890,7 +1890,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/Amazon_Prime_Video.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/190.jpg",
+    "imagepath": "/bollyimages/190.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1900,7 +1900,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.9,
-    "imagepath": "/bollywebimages/191.jpg",
+    "imagepath": "/bollyimages/191.jpg",
     "languages": ["Hindi"]
   },
 {
@@ -1910,7 +1910,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/Amazon_Prime_Video.png",
     "imdb_rating": 8.1,
-    "imagepath": "/bollywebimages/192.jpg",
+    "imagepath": "/bollyimages/192.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1920,7 +1920,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/193.jpg",
+    "imagepath": "/bollyimages/193.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1930,7 +1930,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 7.8,
-    "imagepath": "/bollywebimages/194.jpg",
+    "imagepath": "/bollyimages/194.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1940,7 +1940,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/195.jpg",
+    "imagepath": "/bollyimages/195.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1950,7 +1950,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/196.jpg",
+    "imagepath": "/bollyimages/196.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1960,7 +1960,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/197.jpg",
+    "imagepath": "/bollyimages/197.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1970,7 +1970,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 8.0,
-    "imagepath": "/bollywebimages/198.jpg",
+    "imagepath": "/bollyimages/198.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1980,7 +1980,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/199.jpg",
+    "imagepath": "/bollyimages/199.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -1990,7 +1990,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/ZEE5.png",
     "imdb_rating": 7.3,
-    "imagepath": "/bollywebimages/200.jpg",
+    "imagepath": "/bollyimages/200.jpg",
     "languages": ["Hindi"]
   },
 {
@@ -2000,7 +2000,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/Amazon_Prime_Video.png",
     "imdb_rating": 8.2,
-    "imagepath": "/bollywebimages/201.jpg",
+    "imagepath": "/bollyimages/201.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2010,7 +2010,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.4,
-    "imagepath": "/bollywebimages/202.jpg",
+    "imagepath": "/bollyimages/202.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2020,7 +2020,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 7.3,
-    "imagepath": "/bollywebimages/203.jpg",
+    "imagepath": "/bollyimages/203.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2030,7 +2030,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/Amazon_Prime_Video.png",
     "imdb_rating": 6.6,
-    "imagepath": "/bollywebimages/204.jpg",
+    "imagepath": "/bollyimages/204.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2040,7 +2040,7 @@ const bollymovie=[
     "where_to_watch": "JioCinema",
     "iconpath": "/icons/JioCinema.png",
     "imdb_rating": 7.5,
-    "imagepath": "/bollywebimages/205.jpg",
+    "imagepath": "/bollyimages/205.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2050,7 +2050,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 6.8,
-    "imagepath": "/bollywebimages/206.jpg",
+    "imagepath": "/bollyimages/206.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2060,7 +2060,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 6.3,
-    "imagepath": "/bollywebimages/207.jpg",
+    "imagepath": "/bollyimages/207.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2070,7 +2070,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/Amazon_Prime_Video.png",
     "imdb_rating": 5.7,
-    "imagepath": "/bollywebimages/208.jpg",
+    "imagepath": "/bollyimages/208.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2080,7 +2080,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/Amazon_Prime_Video.png",
     "imdb_rating": 5.4,
-    "imagepath": "/bollywebimages/209.jpg",
+    "imagepath": "/bollyimages/209.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2090,7 +2090,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.3,
-    "imagepath": "/bollywebimages/210.jpg",
+    "imagepath": "/bollyimages/210.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2100,7 +2100,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 5.0,
-    "imagepath": "/bollywebimages/211.jpg",
+    "imagepath": "/bollyimages/211.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2110,7 +2110,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/Amazon_Prime_Video.png",
     "imdb_rating": 6.8,
-    "imagepath": "/bollywebimages/212.jpg",
+    "imagepath": "/bollyimages/212.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2120,7 +2120,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.2,
-    "imagepath": "/bollywebimages/213.jpg",
+    "imagepath": "/bollyimages/213.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2130,7 +2130,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 3.7,
-    "imagepath": "/bollywebimages/214.jpg",
+    "imagepath": "/bollyimages/214.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2140,7 +2140,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.1,
-    "imagepath": "/bollywebimages/215.jpg",
+    "imagepath": "/bollyimages/215.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2150,7 +2150,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.8,
-    "imagepath": "/bollywebimages/216.jpg",
+    "imagepath": "/bollyimages/216.jpg",
     "languages": ["Hindi"]
   },
  
@@ -2161,7 +2161,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.9,
-    "imagepath": "/bollywebimages/217.jpg",
+    "imagepath": "/bollyimages/217.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2171,7 +2171,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.0,
-    "imagepath": "/bollywebimages/218.jpg",
+    "imagepath": "/bollyimages/218.jpg",
     "languages": ["Hindi"]
   },
 {
@@ -2181,7 +2181,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.6,
-    "imagepath": "/bollywebimages/219.jpg",
+    "imagepath": "/bollyimages/219.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2191,7 +2191,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 7.1,
-    "imagepath": "/bollywebimages/220.jpg",
+    "imagepath": "/bollyimages/220.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2201,7 +2201,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.1,
-    "imagepath": "/bollywebimages/221.jpg",
+    "imagepath": "/bollyimages/221.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2211,7 +2211,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.5,
-    "imagepath": "/bollywebimages/222.jpg",
+    "imagepath": "/bollyimages/222.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2221,7 +2221,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.2,
-    "imagepath": "/bollywebimages/223.jpg",
+    "imagepath": "/bollyimages/223.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2231,7 +2231,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 6.4,
-    "imagepath": "/bollywebimages/224.jpg",
+    "imagepath": "/bollyimages/224.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2241,7 +2241,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 5.5,
-    "imagepath": "/bollywebimages/225.jpg",
+    "imagepath": "/bollyimages/225.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2251,7 +2251,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/ZEE5.png",
     "imdb_rating": 4.2,
-    "imagepath": "/bollywebimages/226.jpg",
+    "imagepath": "/bollyimages/226.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2261,7 +2261,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 5.3,
-    "imagepath": "/bollywebimages/227.jpg",
+    "imagepath": "/bollyimages/227.jpg",
     "languages": ["English", "Hindi"]
   },
   {
@@ -2271,7 +2271,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 4.5,
-    "imagepath": "/bollywebimages/228.jpg",
+    "imagepath": "/bollyimages/228.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2281,7 +2281,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/ZEE5.png",
     "imdb_rating": 3.8,
-    "imagepath": "/bollywebimages/229.jpg",
+    "imagepath": "/bollyimages/229.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2291,7 +2291,7 @@ const bollymovie=[
     "where_to_watch": "Disney+ Hotstar",
     "iconpath": "/icons/DisneyPlus.png",
     "imdb_rating": 3.5,
-    "imagepath": "/bollywebimages/230.jpg",
+    "imagepath": "/bollyimages/230.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2301,7 +2301,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 6.6,
-    "imagepath": "/bollywebimages/231.png",
+    "imagepath": "/bollyimages/231.png",
     "languages": ["Hindi"]
   },
   {
@@ -2311,7 +2311,7 @@ const bollymovie=[
     "where_to_watch": "YouTube",
     "iconpath": "/icons/YouTube.png",
     "imdb_rating": 5.3,
-    "imagepath": "/bollywebimages/232.jpg",
+    "imagepath": "/bollyimages/232.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2321,7 +2321,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/ZEE5.png",
     "imdb_rating": 4.7,
-    "imagepath": "/bollywebimages/233.jpg",
+    "imagepath": "/bollyimages/233.jpg",
     "languages": ["Hindi"]
   },
   {
@@ -2331,7 +2331,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/ZEE5.png",
     "imdb_rating": 4.2,
-    "imagepath": "/bollywebimages/234.jpg",
+    "imagepath": "/bollyimages/234.jpg",
     "languages": ["Hindi"]
   },
     {
@@ -2341,7 +2341,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/ZEE5.png",
     "imdb_rating": 3.9,
-    "imagepath": "/bollywebimages/235.jpg",
+    "imagepath": "/bollyimages/235.jpg",
     "languages": ["Hindi"]
   },
    {
@@ -2351,7 +2351,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/Prime videos.png",
     "imdb_rating": 8.0,
-    "imagepath": "/bollywebimages/236.jpg",
+    "imagepath": "/bollyimages/236.jpg",
     "languages": ["Malayalam"]
   },
 {
@@ -2361,7 +2361,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 6.6,
-    "imagepath": "/bollywebimages/237.jpg",
+    "imagepath": "/bollyimages/237.jpg",
     "languages": ["Malayalam"]
   },
   {
@@ -2371,7 +2371,7 @@ const bollymovie=[
     "where_to_watch": "ZEE5",
     "iconpath": "/icons/ZEE5.png",
     "imdb_rating": 6.3,
-    "imagepath": "/bollywebimages/238.jpg",
+    "imagepath": "/bollyimages/238.jpg",
     "languages": ["Kannada"]
   },
   {
@@ -2381,7 +2381,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.1,
-    "imagepath": "/bollywebimages/239.jpg",
+    "imagepath": "/bollyimages/239.jpg",
     "languages": ["Tamil", "Telugu", "Hindi"]
   },
   {
@@ -2391,7 +2391,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 7.2,
-    "imagepath": "/bollywebimages/240.jpg",
+    "imagepath": "/bollyimages/240.jpg",
     "languages": ["Tamil"]
   },
   {
@@ -2401,7 +2401,7 @@ const bollymovie=[
     "where_to_watch": "Netflix",
     "iconpath": "/icons/Netflix.png",
     "imdb_rating": 5.1,
-    "imagepath": "/bollywebimages/241.jpg",
+    "imagepath": "/bollyimages/241.jpg",
     "languages": ["Malayalam"]
   },
   {
@@ -2411,7 +2411,7 @@ const bollymovie=[
     "where_to_watch":"Prime videos",
     "iconpath": "/icons/PrimeVideo.png",
     "imdb_rating": 6.8,
-    "imagepath": "/bollywebimages/242.jpg",
+    "imagepath": "/bollyimages/242.jpg",
     "languages": ["Malayalam"]
   }
 ];

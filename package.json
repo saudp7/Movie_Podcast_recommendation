@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -10,7 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "cloudinary": "^2.7.0",
+    "cloudinary": "^1.41.3",
     "connect-flash": "^0.1.1",
     "dotenv": "^16.5.0",
     "ejs-mate": "^4.0.0",
@@ -19,7 +21,7 @@
     "method-override": "^3.0.0",
     "mongoose": "^8.13.2",
     "multer": "^1.4.5-lts.2",
-    "multer-storage-cloudinary": "^4.0.0",
+    "multer-storage-cloudinary": "^2.2.1",
     "nodemailer": "^6.10.1",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
