@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Select Your Mood</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      display: grid;
+      place-items: center;
+      height: 100vh;
+      background-color: #0a0a0ad5;
+      overflow: hidden;
+      background-image: url('/images/bg.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-blend-mode: overlay;
+    }
+
+    section {
+      display: grid;
+      grid-template-columns: repeat(4, min(200px, 20vw));
+      gap: 15px;
+      text-align: center;
+      background-color: transparent;
+      --itemWidth: min(200px, 20vw);
+      --itemWidthMinus: calc(-1 * var(--itemWidth));
+    }
+
+    h3 {
+      grid-column: span 4;
+      font-size: 1.5rem;
+      color: white;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .item {
+      width: var(--itemWidth);
+      height: var(--itemWidth);
+      border-radius: 50%;
+      background: center/cover no-repeat;
+      cursor: pointer;
+      box-shadow: inset var(--itemWidthMinus) var(--itemWidthMinus) 0 black, 
+                  inset var(--itemWidth) var(--itemWidthMinus) 0 green, 
+                  inset var(--itemWidthMinus) var(--itemWidth) 0 blue, 
+                  inset var(--itemWidth) var(--itemWidth) 0 yellow, 
+                  0 0 15px silver;
+      transition: box-shadow ease-in-out .6s, color ease-in-out .5s;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      font-size: calc(var(--itemWidth) / 8);
+      color: white;
+      background-color: white;
+    }
+
+    .item:hover {
+      box-shadow: 
+          inset 0 0 0 transparent, 
+          inset 0 0 0 transparent, 
+          inset 0 0 0 transparent, 
+          inset 0 0 0 transparent, 
+          0 0 15px silver;
+      color: transparent;
+    }
+
+    .item > span {
+      user-select: none;
+    }
+
+    .item:nth-of-type(1) {
+      background-image: url('/images/happy.webp');
+    }
+
+    .item:nth-of-type(2) {
+      background-image: url('/images/confusing.webp');
+    }
+
+    .item:nth-of-type(3) {
+      background-image: url('/images/mindblow.webp');
+    }
+
+    .item:nth-of-type(4) {
+      background-image: url('/images/sad.webp');
+    }
+
+    @media (max-width: 768px) {
+      section {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      section {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section>
+    <h3>SELECT YOUR MOOD &mdash;</h3>
+
+    <!-- Clickable moods -->
+    <a href="/mood/happy" class="item"><span>HAPPY</span></a>
+    <a href="/mood/confusing" class="item"><span>CONFUSING</span></a>
+    <a href="/mood/mindblow" class="item"><span>MINDBLOWING</span></a>
+    <a href="/mood/sad" class="item"><span>SAD</span></a>
+  </section>
+
+</body>
+</html>

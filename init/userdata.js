@@ -1,0 +1,505 @@
+const sampleListings =[
+    {
+      name: "Aarav Mehta",
+      email: "aarav.mehta@example.com",
+      password: "hashedPassword123",
+      phoneNum: "9876543210",
+      pincode: "395007",
+      gender: "Male",
+      age: 25,
+      country: "India"
+    },
+    {
+      name: "Sara Khan",
+      email: "sara.khan@example.com",
+      password: "securePass456",
+      phoneNum: "9123456789",
+      pincode: "110001",
+      gender: "Female",
+      age: 28,
+      country: "India"
+    },
+    {
+      name: "John Carter",
+      email: "john.carter@example.com",
+      password: "johnStrong@99",
+      phoneNum: "9998877665",
+      pincode: "560001",
+      gender: "Male",
+      age: 32,
+      country: "USA"
+    },
+    {
+      name: "Emily Zhang",
+      email: "emily.zhang@example.com",
+      password: "emilyZ!2024",
+      phoneNum: "9870011223",
+      pincode: "400001",
+      gender: "Female",
+      age: 30,
+      country: "China"
+    },
+    {
+      name: "Raj Patel",
+      email: "raj.patel@example.com",
+      password: "rajPatel#88",
+      phoneNum: "9988776655",
+      pincode: "382445",
+      gender: "Male",
+      age: 27,
+      country: "India"
+    },
+    {
+      name: "Mia Gomez",
+      email: "mia.gomez@example.com",
+      password: "m1aG@pass",
+      phoneNum: "9112233445",
+      pincode: "75001",
+      gender: "Female",
+      age: 26,
+      country: "Mexico"
+    },
+    {
+      name: "Karan Singh",
+      email: "karan.singh@example.com",
+      password: "karanSecure777",
+      phoneNum: "9871234560",
+      pincode: "302001",
+      gender: "Male",
+      age: 29,
+      country: "India"
+    },
+    {
+      name: "Lisa Brown",
+      email: "lisa.brown@example.com",
+      password: "lis4BrownPwd!",
+      phoneNum: "9111122233",
+      pincode: "90210",
+      gender: "Female",
+      age: 35,
+      country: "USA"
+    },
+    {
+      name: "Takumi Sato",
+      email: "takumi.sato@example.com",
+      password: "satoPass@123",
+      phoneNum: "9873322110",
+      pincode: "150-0001",
+      gender: "Male",
+      age: 31,
+      country: "Japan"
+    },
+    {
+      name: "Neha Sharma",
+      email: "neha.sharma@example.com",
+      password: "NehaS@321",
+      phoneNum: "9876655443",
+      pincode: "122001",
+      gender: "Female",
+      age: 24,
+      country: "India"
+    },
+    {
+      name: "Aisha Qureshi",
+      email: "aisha.qureshi@example.com",
+      password: "AishaQ123!",
+      phoneNum: "9812345670",
+      pincode: "500001",
+      gender: "Female",
+      age: 23,
+      country: "India"
+    },
+    {
+      name: "David Miller",
+      email: "david.miller@example.com",
+      password: "D@vidM987",
+      phoneNum: "9988771122",
+      pincode: "10001",
+      gender: "Male",
+      age: 40,
+      country: "USA"
+    },
+    {
+      name: "Fatima Noor",
+      email: "fatima.noor@example.com",
+      password: "Fatima!@#",
+      phoneNum: "9765432198",
+      pincode: "400705",
+      gender: "Female",
+      age: 29,
+      country: "Pakistan"
+    },
+    {
+      name: "Carlos Ruiz",
+      email: "carlos.ruiz@example.com",
+      password: "CRuiz@2023",
+      phoneNum: "9876543200",
+      pincode: "28001",
+      gender: "Male",
+      age: 33,
+      country: "Spain"
+    },
+    {
+      name: "Anjali Verma",
+      email: "anjali.verma@example.com",
+      password: "Anj@2022",
+      phoneNum: "9944556677",
+      pincode: "302017",
+      gender: "Female",
+      age: 26,
+      country: "India"
+    },
+    {
+      name: "Tom Wilson",
+      email: "tom.wilson@example.com",
+      password: "TomW!2024",
+      phoneNum: "9876543123",
+      pincode: "33101",
+      gender: "Male",
+      age: 34,
+      country: "USA"
+    },
+    {
+      name: "Priya Nair",
+      email: "priya.nair@example.com",
+      password: "Priya1234!",
+      phoneNum: "9811198765",
+      pincode: "695014",
+      gender: "Female",
+      age: 27,
+      country: "India"
+    },
+    {
+      name: "Alexei Ivanov",
+      email: "alexei.ivanov@example.com",
+      password: "Alexei@2025",
+      phoneNum: "9900112233",
+      pincode: "101000",
+      gender: "Male",
+      age: 38,
+      country: "Russia"
+    },
+    {
+      name: "Sneha Iyer",
+      email: "sneha.iyer@example.com",
+      password: "SnehaI!999",
+      phoneNum: "9877070707",
+      pincode: "400080",
+      gender: "Female",
+      age: 22,
+      country: "India"
+    },
+    {
+      name: "Zane Malik",
+      email: "zane.malik@example.com",
+      password: "ZaneM@123",
+      phoneNum: "9112345678",
+      pincode: "54000",
+      gender: "Male",
+      age: 31,
+      country: "Pakistan"
+    },
+    {
+      name: "Emily Watson",
+      email: "emily.watson@example.com",
+      password: "EWatson@!89",
+      phoneNum: "9988123456",
+      pincode: "W1A0AX",
+      gender: "Female",
+      age: 30,
+      country: "UK"
+    },
+    {
+      name: "Harshil Shah",
+      email: "harshil.shah@example.com",
+      password: "HarshilS$001",
+      phoneNum: "9822334455",
+      pincode: "395009",
+      gender: "Male",
+      age: 24,
+      country: "India"
+    },
+    {
+      name: "Sophia Kim",
+      email: "sophia.kim@example.com",
+      password: "S0ph!aK",
+      phoneNum: "9876654321",
+      pincode: "04524",
+      gender: "Female",
+      age: 28,
+      country: "South Korea"
+    },
+    {
+      name: "Nikhil Joshi",
+      email: "nikhil.joshi@example.com",
+      password: "Nikhil2025@",
+      phoneNum: "9990001234",
+      pincode: "411001",
+      gender: "Male",
+      age: 26,
+      country: "India"
+    },
+    {
+      name: "Isabella Rossi",
+      email: "isabella.rossi@example.com",
+      password: "IsaR@321",
+      phoneNum: "9833445566",
+      pincode: "00184",
+      gender: "Female",
+      age: 32,
+      country: "Italy"
+    },
+    {
+      name: "Mohammed Yusuf",
+      email: "mohammed.yusuf@example.com",
+      password: "MYusuf#88",
+      phoneNum: "9876000011",
+      pincode: "600001",
+      gender: "Male",
+      age: 36,
+      country: "India"
+    },
+    {
+      name: "Chloe Dubois",
+      email: "chloe.dubois@example.com",
+      password: "Chl0e@fr",
+      phoneNum: "9887766554",
+      pincode: "75000",
+      gender: "Female",
+      age: 29,
+      country: "France"
+    },
+    {
+      name: "Jay Patel",
+      email: "jay.patel@example.com",
+      password: "JayPatel_789",
+      phoneNum: "9801122334",
+      pincode: "388120",
+      gender: "Male",
+      age: 25,
+      country: "India"
+    },
+    {
+      name: "Liam Smith",
+      email: "liam.smith@example.com",
+      password: "L1amSm!th",
+      phoneNum: "9776655443",
+      pincode: "2000",
+      gender: "Male",
+      age: 37,
+      country: "Australia"
+    },
+    {
+      name: "Riya Desai",
+      email: "riya.desai@example.com",
+      password: "RiyaD_@2025",
+      phoneNum: "9833221100",
+      pincode: "390001",
+      gender: "Female",
+      age: 23,
+      country: "India"
+    },
+    {
+      name: "Ayaan Khan",
+      email: "ayaan.khan@example.com",
+      password: "Ayaan@2024",
+      phoneNum: "9811223344",
+      pincode: "500081",
+      gender: "Male",
+      age: 30,
+      country: "India"
+    },
+    {
+      name: "Meera Kapoor",
+      email: "meera.kapoor@example.com",
+      password: "MeeraK!987",
+      phoneNum: "9822001122",
+      pincode: "400001",
+      gender: "Female",
+      age: 27,
+      country: "India"
+    },
+    {
+      name: "Brian O'Connor",
+      email: "brian.oconnor@example.com",
+      password: "Bri@nFast@77",
+      phoneNum: "9811112233",
+      pincode: "94102",
+      gender: "Male",
+      age: 35,
+      country: "USA"
+    },
+    {
+      name: "Lana Dsouza",
+      email: "lana.dsouza@example.com",
+      password: "LanaD!23",
+      phoneNum: "9876543322",
+      pincode: "403001",
+      gender: "Female",
+      age: 28,
+      country: "India"
+    },
+    {
+      name: "Junaid Ali",
+      email: "junaid.ali@example.com",
+      password: "Junaid_@234",
+      phoneNum: "9845566778",
+      pincode: "110002",
+      gender: "Male",
+      age: 31,
+      country: "Pakistan"
+    },
+    {
+      name: "Maya Lobo",
+      email: "maya.lobo@example.com",
+      password: "MayaL#4321",
+      phoneNum: "9867543210",
+      pincode: "682001",
+      gender: "Female",
+      age: 26,
+      country: "India"
+    },
+    {
+      name: "Aditya Roy",
+      email: "aditya.roy@example.com",
+      password: "AdityaR@555",
+      phoneNum: "9854432211",
+      pincode: "700001",
+      gender: "Male",
+      age: 29,
+      country: "India"
+    },
+    {
+      name: "Jessica Moore",
+      email: "jessica.moore@example.com",
+      password: "JessMoore@321",
+      phoneNum: "9877654321",
+      pincode: "10016",
+      gender: "Female",
+      age: 33,
+      country: "USA"
+    },
+    {
+      name: "Yuki Nakamura",
+      email: "yuki.nakamura@example.com",
+      password: "YukiJp@888",
+      phoneNum: "9877654432",
+      pincode: "160-0022",
+      gender: "Female",
+      age: 30,
+      country: "Japan"
+    },
+    {
+      name: "Rakesh Menon",
+      email: "rakesh.menon@example.com",
+      password: "RakeshM#9090",
+      phoneNum: "9821098765",
+      pincode: "695001",
+      gender: "Male",
+      age: 36,
+      country: "India"
+    },
+    {
+      name: "Noor Fatima",
+      email: "noor.fatima@example.com",
+      password: "NoorF@2024",
+      phoneNum: "9876123498",
+      pincode: "500034",
+      gender: "Female",
+      age: 24,
+      country: "Bangladesh"
+    },
+    {
+      name: "Hitesh Sharma",
+      email: "hitesh.sharma@example.com",
+      password: "Hitesh@456",
+      phoneNum: "9811122334",
+      pincode: "302015",
+      gender: "Male",
+      age: 28,
+      country: "India"
+    },
+    {
+      name: "Alice Chen",
+      email: "alice.chen@example.com",
+      password: "AChen_2025",
+      phoneNum: "9844112233",
+      pincode: "100020",
+      gender: "Female",
+      age: 31,
+      country: "China"
+    },
+    {
+      name: "Ritu Jain",
+      email: "ritu.jain@example.com",
+      password: "Ritu@2023",
+      phoneNum: "9856778899",
+      pincode: "380015",
+      gender: "Female",
+      age: 25,
+      country: "India"
+    },
+    {
+      name: "Naveen Krishnan",
+      email: "naveen.krishnan@example.com",
+      password: "NaveenK#444",
+      phoneNum: "9812233445",
+      pincode: "600018",
+      gender: "Male",
+      age: 32,
+      country: "India"
+    },
+    {
+      name: "Tanya Bhatia",
+      email: "tanya.bhatia@example.com",
+      password: "Tanya_789",
+      phoneNum: "9846677885",
+      pincode: "144001",
+      gender: "Female",
+      age: 27,
+      country: "India"
+    },
+    {
+      name: "Jorge Martinez",
+      email: "jorge.martinez@example.com",
+      password: "Jorge@spain",
+      phoneNum: "9887766554",
+      pincode: "28013",
+      gender: "Male",
+      age: 34,
+      country: "Spain"
+    },
+    {
+      name: "Alina Das",
+      email: "alina.das@example.com",
+      password: "AlinaD#001",
+      phoneNum: "9845671234",
+      pincode: "751001",
+      gender: "Female",
+      age: 26,
+      country: "India"
+    },
+    {
+      name: "Vikram Singh",
+      email: "vikram.singh@example.com",
+      password: "VikSingh@456",
+      phoneNum: "9833445567",
+      pincode: "122002",
+      gender: "Male",
+      age: 29,
+      country: "India"
+    },
+    {
+      name: "Elena Petrova",
+      email: "elena.petrova@example.com",
+      password: "ElenaR@2024",
+      phoneNum: "9867554432",
+      pincode: "125212",
+      gender: "Female",
+      age: 30,
+      country: "Russia"
+    }
+  ];
+  module.exports = { data: sampleListings };
+  
+  

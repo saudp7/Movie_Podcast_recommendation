@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CineVibes - Home</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: #fff;
+      min-height: 100vh;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    .rain-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .raindrop {
+      position: absolute;
+      font-size: 1.5rem;
+      color: rgba(255, 0, 0, 0.4);
+      animation: fall linear infinite;
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(-100px) rotate(0deg);
+        opacity: 0;
+      }
+
+      10% {
+        opacity: 1;
+      }
+
+      100% {
+        transform: translateY(110vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.6) !important;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 12px rgba(255, 0, 0, 0.2);
+      padding-top: 0.4rem;
+      padding-bottom: 0.4rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.6rem;
+      color: #ff1e1e !important;
+      padding: 0;
+    }
+
+    .btn-glow {
+      background: linear-gradient(135deg, #ff1e1e, #ff3c3c);
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      padding: 6px 16px;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 12px rgba(255, 30, 30, 0.6);
+    }
+
+    .btn-glow:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(255, 30, 30, 0.8);
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      border-left: 5px solid #ff1e1e;
+      padding-left: 15px;
+      animation: fadeIn 0.8s ease-in;
+    }
+
+    .text-danger {
+      color: #ff4d4d !important;
+    }
+
+    .text-primary {
+      color: #4da6ff !important;
+    }
+
+    .text-info {
+      color: #33cccc !important;
+    }
+
+    .movie-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 20px;
+      transition: transform 0.4s ease, filter 0.3s ease;
+      height: 320px;
+      width: 100%;
+      max-width: 350px;
+      margin: 0 auto;
+      box-shadow: 0 10px 25px rgba(255, 0, 0, 0.2);
+      background-color: #111;
+      animation: fadeIn 0.8s ease-in;
+    }
+
+    .movie-card:hover {
+      transform: scale(1.05);
+      filter: brightness(1.1);
+      box-shadow: 0 15px 30px rgba(255, 0, 0, 0.4);
+    }
+
+    /* .movie-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    } */
+    .movie-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  background-color: #000;
+  padding: 10px; /* optional for spacing */
+}
+
+
+    .container {
+      margin-top: 40px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .row.justify-content-center.mb-5 {
+      row-gap: 30px;
+      column-gap: 20px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(15px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 576px) {
+      .navbar-brand {
+        font-size: 1.4rem;
+      }
+
+      .btn-glow {
+        font-size: 0.85rem;
+        padding: 5px 12px;
+      }
+
+      .movie-card {
+        height: 250px;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        padding-left: 10px;
+      }
+      header {
+      background-color: #1f1f1f;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #ff5757;
+    }
+
+    header h1 {
+      font-size: 24px;
+      color: #ff5757;
+    }
+
+    nav a {
+      color: #f5f5f5;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff5757;
+    }
+
+    }
+    .review-card {
+    background-color: #fff;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+  }
+
+  .review-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  }
+
+  .review-card p {
+    font-size: 0.95rem;
+    color: #333;
+  }
+
+  .review-card .text-warning {
+    font-size: 0.9rem;
+  }
+  </style>
+</head>
+
+<body>
+
+  <!-- Rain Animation -->
+  <div class="rain-container" id="rain"></div>
+
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="/">🎬CineVibes</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+      
+
+          <li class="nav-item">
+            <a class="nav-link" href="/movie">Explore More</a>
+          </li>
+         
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Content -->
+  <div class="container">
+    <!-- Categories -->
+    <h2 class="text-danger fw-bold">Bollywood Movies</h2>
+    <div class="row justify-content-center mb-5">
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/bm1.jpg" alt="Bollywood Movie"></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/bm2.jpg" alt="Bollywood Movie"></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/bm3.jpg" alt="Bollywood Movie"></div></div>
+    </div>
+
+    <h2 class="text-danger fw-bold">Bollywood Series</h2>
+    <div class="row justify-content-center mb-5">
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/bs1.jpg" alt="Bollywood Series"></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/bs2.jpg" alt="Bollywood Series"></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/bs3.jpg" alt="Bollywood Series"></div></div>
+    </div>
+
+    <h2 class="text-primary fw-bold">Hollywood Movies</h2>
+    <div class="row justify-content-center mb-5">
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/hm1.jpg" alt="Hollywood Movie"></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/hm2.jpg" alt="Hollywood Movie"></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/hm3.jpg" alt="Hollywood Movie"></div></div>
+    </div>
+
+    <h2 class="text-primary fw-bold">Hollywood Series</h2>
+    <div class="row justify-content-center mb-5">
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/hs1.jpg" alt="Hollywood Series"></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/hs2.jpg" alt="Hollywood Series"></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/hs3.jpg" alt="Hollywood Series"></div></div>
+    </div>
+
+    <h2 class="text-info fw-bold">Podcast</h2>
+    <div class="row justify-content-center mb-5">
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="https://imgs.search.brave.com/uy4wNHX7tdVSq8P3TYSs2OWW2wer5iNXYVBmVBjvydk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFGUDJl/VEZfQkEvMS8wLzE2/MDB3L2NhbnZhLW9y/YW5nZS1taW5pbWFs/aXN0LXRoZS1wb2Rj/YXN0LXBvZGNhc3Qt/MHhHc1FHazVsWE0u/anBn" alt="Podcast"></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="https://imgs.search.brave.com/XUfF9sDSuFjioMIfAmFteESNa2ce2bxBun0Wgznh9nM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5ucHIub3JnL2Fz/c2V0cy9pbWcvMjAy/NC8wMS8xMS9wb2Rj/YXN0LXBvbGl0aWNz/XzIwMjNfdXBkYXRl/MV9zcS1iZTdlZjQ2/NGRkMDU4ZmU2NjNk/OWU0Y2ZlODM2ZmI5/MzA5YWQwYTRkLmpw/Zz9zPTQwMCZjPTE1/JmY9anBlZw" alt="Podcast"></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="https://imgs.search.brave.com/Hrb-XlIlNb0SvLTFoIsfXcklSSHJ7cEcdb76doZcocA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFFMS1Z/d2pGZjAvMS8wLzE2/MDB3L2NhbnZhLW1v/dGl2YXRpb24tcG9k/Y2FzdC1jb3Zlci1t/V01vUVhBVUFXQS5q/cGc" alt="Podcast"></div></div>
+    </div>
+
+    <h2 class="text-info fw-bold">Cartoon</h2>
+    <div class="row justify-content-center mb-5">
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/cartoon1.jpg" alt="Cartoon"></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/cartoon2.jpg" alt="Cartoon"></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"><div class="movie-card"><img src="/img/cartoon3.jpg" alt="Cartoon"></div></div>
+    </div>
+  </div>
+
+
+  
+
+
+  <h2 class="text-danger fw-bold text-center mb-4">User Reviews</h2>
+  <div class="row justify-content-center mb-5">
+    <% reviews.forEach(review => { %>
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="review-card p-3 shadow-sm">
+          <h6 class="text-dark mb-2 fw-bold">
+            <i class="fas fa-user-circle me-1 text-secondary"></i> <%= review.owner.username %>
+          </h6>
+          <p class="text-primary small mb-2"><%= review.comment %></p>
+          <div class="stars">
+            <% for(let i = 1; i <= 5; i++) { %>
+              <% if(i <= review.rating) { %>
+                <i class="fa-solid fa-star filled"></i>
+              <% } else { %>
+                <i class="fa-regular fa-star"></i>
+              <% } %>
+            <% } %>
+          </div>
+          <div class="text-muted small"><%= new Date(review.createdAt).toLocaleDateString() %></div>
+        </div>
+      </div>
+    <% }) %>
+  </div>
+  
+
+  <div class="text-center mb-5">
+    <a href="/new/review" class="btn btn-glow px-4 py-2 shadow-lg" style="border-radius: 40px;">
+      <i class="fas fa-comment-dots me-2"></i> Share Your Thoughts
+    </a>
+  </div>
+  
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Rain Script -->
+  <script>
+    const icons = ['<i class="fas fa-ticket-alt"></i>', '<i class="fas fa-popcorn"></i>'];
+    const rainContainer = document.getElementById("rain");
+
+    for (let i = 0; i < 50; i++) {
+      const drop = document.createElement("div");
+      drop.classList.add("raindrop");
+      drop.innerHTML = icons[Math.floor(Math.random() * icons.length)];
+      drop.style.left = Math.random() * 100 + "vw";
+      drop.style.animationDuration = (Math.random() * 5 + 5) + "s";
+      drop.style.fontSize = (Math.random() * 10 + 15) + "px";
+      drop.style.animationDelay = Math.random() * 5 + "s";
+      rainContainer.appendChild(drop);
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Favorites</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    body {
+      background: #121212;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      padding: 2rem;
+    }
+    .fav-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+    }
+    .fav-card {
+      background: #1e1e1e;
+      padding: 1rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    .fav-card img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .fav-card h3 {
+      margin: 0.8rem 0 0.3rem;
+      color: gold;
+    }
+    .fav-card .type {
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <% layout("layouts/boilerplate") -%>
+  <h1>⭐ Your Favorites</h1>
+  <div class="fav-grid">
+   <% favoriteItems.forEach(item => { %>
+  <% if (item.content) { %>
+    <div class="fav-card">
+      <img src="<%= item.content.imagepath || item.content.poster || item.content.thumbnail || '/default.jpg' %>" alt="cover">
+      <h3><%= item.content.title || item.content.name %></h3>
+      <div class="type"><%= item.contentType.replace("_", " ").toUpperCase() %></div>
+    </div>
+  <% } else { %>
+    <div class="fav-card error">
+      <p>This favorite content is no longer available.</p>
+    </div>
+  <% } %>
+<% }); %>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Edit Cartoon</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .edit-form {
+      background-color: #1a1a1a;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 0 25px rgba(0, 255, 170, 0.15);
+      width: 90%;
+      max-width: 500px;
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    .edit-form h2 {
+      text-align: center;
+      color: #00ffaa;
+      margin-bottom: 25px;
+      font-size: 1.8rem;
+      text-shadow: 0 0 8px #00ffaaa8;
+    }
+
+    .edit-form input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      background-color: #2a2a2a;
+      color: #fff;
+      font-size: 1em;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 8px rgba(0, 255, 170, 0.1);
+    }
+
+    .edit-form input:focus {
+      outline: none;
+      background: #333;
+      box-shadow: 0 0 10px #00ffaa, 0 0 20px #00ffaa88;
+    }
+
+    .edit-form button {
+      width: 100%;
+      padding: 14px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 15px;
+      background: linear-gradient(45deg, #00ffaa, #00c3ff);
+      color: #000;
+      font-weight: bold;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .edit-form button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 20px #00ffaa, 0 0 30px #00c3ffaa;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <form action="/cartoonmovies/<%= car._id %>?_method=PUT" method="POST" class="edit-form">
+    <h2>Edit Cartoon</h2>
+    <input type="text" name="title" value="<%= car.title %>" placeholder="Title" required />
+    <input type="text" name="genre" value="<%= car.genre %>" placeholder="Genre" required />
+    <input type="text" name="year_of_release" value="<%= car.year_of_release %>" placeholder="Year" required />
+    <input type="text" name="languages" value="<%= car.languages.join(', ') %>" placeholder="Languages" required />
+    <input type="text" name="imagepath" value="<%= car.imagepath %>" placeholder="Image URL" required />
+    <input type="text" name="iconpath" value="<%= car.iconpath %>" placeholder="Platform Icon URL" required />
+    <input type="text" name="where_to_watch" value="<%= car.where_to_watch %>" placeholder="Watch Platform" required />
+    <input type="text" name="imdb_rating" value="<%= car.imdb_rating %>" placeholder="IMDb Rating" required />
+    <button type="submit">Update Cartoon</button>
+  </form>
+</body>
+</html>

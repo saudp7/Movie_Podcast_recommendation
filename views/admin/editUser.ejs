@@ -1,0 +1,9 @@
+<h2 class="mt-4">Edit User</h2>
+<form action="/admin/users/<%= user._id %>?_method=PUT" method="POST">
+  <div class="mb-2"><input class="form-control" name="username" value="<%= user.username %>" required></div>
+  <div class="mb-2"><input class="form-control" name="email" type="email" value="<%= user.email %>" required></div>
+  <div class="mb-2"><input class="form-control" name="phoneNum" value="<%= user.phoneNum %>" required></div>
+  <div class="mb-2"><input class="form-control" name="gender" value="<%= user.gender %>" required></div>
+  <div class="mb-2"><input class="form-control" name="country" value="<%= user.country %>" required></div>
+  <button class="btn btn-success">Update User</button>
+</form>

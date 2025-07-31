@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Filtered by <%= genre %> | CineVibes Stream</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+  <% layout("layouts/boilerplate") -%>
+
+  <div class="container">
+    <h2 style="margin-top: 1rem;">Filtered Results for "<%= genre %>"</h2>
+
+    <!-- Bollywood Movies -->
+    <% if (bollymovies.length) { %>
+      <h3>Bollywood Movies</h3>
+      <div class="listings-grid">
+        <% for (let movie of bollymovies) { %>
+          <div class="listing-card">
+            <a href="/movies/title/<%= movie.title %>">
+              <div class="image-wrapper">
+                <img src="<%= movie.imagepath %>" alt="<%= movie.title %> image">
+              </div>
+              <div class="listing-info">
+                <h4><%= movie.title %></h4>
+              </div>
+            </a>
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+
+    <!-- Hollywood Movies -->
+    <% if (hollymovies.length) { %>
+      <h3>Hollywood Movies</h3>
+      <div class="listings-grid">
+        <% for (let movie of hollymovies) { %>
+          <div class="listing-card">
+            <a href="/movies/title/<%= movie.title %>">
+              <div class="image-wrapper">
+                <img src="<%= movie.imagepath %>" alt="<%= movie.title %> image">
+              </div>
+              <div class="listing-info">
+                <h4><%= movie.title %></h4>
+              </div>
+            </a>
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+
+    <!-- Bollywood Web Series -->
+    <% if (bollyweb.length) { %>
+      <h3>Bollywood Web Series</h3>
+      <div class="listings-grid">
+        <% for (let series of bollyweb) { %>
+          <div class="listing-card">
+            <a href="/series/title/<%= series.title %>">
+              <div class="image-wrapper">
+                <img src="<%= series.imagepath %>" alt="<%= series.title %> image">
+              </div>
+              <div class="listing-info">
+                <h4><%= series.title %></h4>
+              </div>
+            </a>
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+
+    <!-- Hollywood Web Series -->
+    <% if (hollyweb.length) { %>
+      <h3>Hollywood Web Series</h3>
+      <div class="listings-grid">
+        <% for (let series of hollyweb) { %>
+          <div class="listing-card">
+            <a href="/series/title/<%= series.title %>">
+              <div class="image-wrapper">
+                <img src="<%= series.imagepath %>" alt="<%= series.title %> image">
+              </div>
+              <div class="listing-info">
+                <h4><%= series.title %></h4>
+              </div>
+            </a>
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+
+    <!-- Podcasts -->
+    <% if (podcasts.length) { %>
+      <h3>Podcasts</h3>
+      <div class="listings-grid">
+        <% for (let pod of podcasts) { %>
+          <div class="listing-card">
+            <a href="/podcasts/title/<%= pod.title %>">
+              <div class="image-wrapper">
+                <img src="<%= pod.imagepath %>" alt="<%= pod.title %> image">
+              </div>
+              <div class="listing-info">
+                <h4><%= pod.title %></h4>
+              </div>
+            </a>
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+
+   
+      <!-- Cartoon Movies -->
+<% if (cartoonmovies.length) { %>
+  <h3>Cartoon Movies</h3>
+  <div class="listings-grid">
+    <% for (let cartoon of cartoonmovies) { %>
+      <div class="listing-card">
+        <a href="/cartoonmovies/title/<%= cartoon.title %>">
+          <div class="image-wrapper">
+            <img src="<%= cartoon.imagepath %>" alt="cartoon image" onerror="this.onerror=null; this.src='/images/fallback.jpg';">
+          </div>
+          <div class="listing-info">
+            <h4><%= cartoon.title %></h4>
+          </div>
+        </a>
+      </div>
+    <% } %>
+  </div>
+<% } %>
+
+    <!-- No results -->
+
+<% if (
+  !bollymovies.length &&
+  !hollymovies.length &&
+  !bollyweb.length &&
+  !hollyweb.length &&
+  !podcasts.length &&
+  !cartoonmovies.length
+) { %>
+  <p style="margin-top: 2rem;">No results found for "<%= genre %>". Try another genre!</p>
+<% } %>
+
+  </div>
+</body>
+</html>

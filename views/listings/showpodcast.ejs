@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title><%= pod.title %> - Podcast Info</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #2c3e50, #3498db);
+      color: #fff;
+      min-height: 100vh;
+      padding: 2rem 0;
+      animation: fadeIn 1s ease-in;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+      padding: 2rem;
+      backdrop-filter: blur(10px);
+      animation: slideUp 1s ease-in;
+    }
+    .podcast-header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+    .podcast-header img {
+      width: 300px;
+      border-radius: 16px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .podcast-header img:hover {
+      transform: scale(1.05);
+    }
+    .podcast-info {
+      flex: 1;
+    }
+    .podcast-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #ffd700;
+      margin-bottom: 1rem;
+    }
+    .podcast-details p {
+      margin-bottom: 0.8rem;
+      font-size: 1.1rem;
+      color: #f1f1f1;
+    }
+    .tag {
+      display: inline-block;
+      background: linear-gradient(90deg, #ff7e5f, #feb47b);
+      color: white;
+      padding: 0.4rem 0.9rem;
+      border-radius: 20px;
+      margin: 0.2rem;
+      font-size: 0.9rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .platform-icons {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+      gap: 12px;
+    }
+    .platform-icons img {
+      width: 32px;
+      height: 32px;
+      border-radius: 6px;
+    }
+    .rating {
+      display: inline-block;
+      background-color: #f3ce13;
+      color: #000;
+      padding: 0.4rem 1rem;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-top: 1.2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+    .rating:hover {
+      transform: scale(1.05);
+    }
+
+    @keyframes slideUp {
+      0% {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        background-color: #000;
+      }
+      to {
+        background: linear-gradient(135deg, #2c3e50, #3498db);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .podcast-header {
+        flex-direction: column;
+        align-items: center;
+      }
+      .podcast-header img {
+        width: 100%;
+        max-width: 320px;
+      }
+    }
+    .action-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #1abc9c;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(26, 188, 156, 0.4);
+}
+
+.edit-btn:hover {
+  background-color: #16a085;
+  transform: translateY(-2px);
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 12px rgba(231, 76, 60, 0.4);
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+  transform: translateY(-2px);
+}
+
+  </style>
+</head>
+
+<body>
+  <% layout("layouts/boilerplate") -%>
+  <div class="container">
+    <div class="podcast-header">
+      <img src="<%= pod.imagepath %>" alt="<%= pod.title %> Cover Art">
+      <div class="podcast-info">
+        <div class="podcast-title"><%= pod.title %></div>
+        <div class="podcast-details">
+          <p><strong>Genre:</strong> <%= pod.genre %></p>
+          <p><strong>Host:</strong> 
+            <% pod.host.forEach(h => { %>
+              <span class="tag"><%= h %></span>
+            <% }) %>
+          </p>
+          <p><strong>Duration:</strong> <%= pod.duration %></p>
+          <p><strong>Languages:</strong> 
+            <% pod.languages.forEach(lang => { %>
+              <span class="tag"><%= lang %></span>
+            <% }) %>
+          </p>
+          <p><strong>Platforms:</strong></p>
+          <div class="platform-icons">
+            <% pod.iconpath.forEach((icon, index) => { %>
+              <img src="<%= icon %>" alt="<%= pod.platform[index] %> logo" title="<%= pod.platform[index] %>">
+            <% }) %>
+          </div>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i> <%= pod.ratings %> / 5
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Place this just before </div> closing the .container div -->
+    <% if(contentType) { %>
+    <form action="/favorites/<%= pod._id %>" method="POST" style="margin-top: 1.2rem;">
+      <input type="hidden" name="contentType" value="<%= contentType %>">
+      <button type="submit" style="background: none; border: none; cursor: pointer;" title="Add to Favorites">
+        <i class="fa-star fa-lg <%= isFavorited ? 'fas' : 'far' %>" style="color: gold;"></i>
+      </button>
+    </form>
+<% } %>
+    <% if (isAdmin) { %> 
+<div style="margin-top: 2rem; text-align: right;">
+  <a href="/podcasts/<%= pod._id %>/edit" class="action-btn edit-btn">
+    <i class="fas fa-pen-to-square"></i> Edit
+  </a>
+
+
+  <form action="/podcasts/<%= pod._id %>?_method=DELETE" method="POST" style="display: inline;">
+    <button type="submit" class="action-btn delete-btn" onclick="return confirm('Are you sure you want to delete this cartoon?')">
+      <i class="fas fa-trash"></i> Delete
+    </button>
+  </form>
+
+</div>
+<% } %>
+  </div>
+</body>
+</html>

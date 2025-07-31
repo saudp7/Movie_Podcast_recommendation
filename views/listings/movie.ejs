@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Movies & Web Series | CineVibes Stream</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+  <% layout("layouts/boilerplate") -%>
+  
+  <div class="container">
+    <h3>Movies</h3>
+    <div class="listings-grid">
+
+      <% for(let bollymovies of allbollymovies) { %>
+        <div class="listing-card">
+          <a href="/movies/<%= bollymovies._id %>">
+            <div class="image-wrapper">
+              <img src="<%= bollymovies.imagepath %>" alt="bollymovies image" onerror="this.onerror=null; this.src='/images/fallback.jpg';">
+            </div>
+            <div class="listing-info">
+              <h4><%= bollymovies.title %></h4>
+            </div>
+          </a>
+        </div>
+      <% } %>
+
+      <% for(let hollymovies of allhollymovies) { %>
+        <div class="listing-card">
+          <a href="/movies/<%= hollymovies._id %>">
+            <div class="image-wrapper">
+              <img src="<%= hollymovies.imagepath %>" alt="hollymovies image" onerror="this.onerror=null; this.src='/images/fallback.jpg';">
+            </div>
+            <div class="listing-info">
+              <h4><%= hollymovies.title %></h4>
+            </div>
+          </a>
+        </div>
+      <% } %>
+
+    </div>
+  </div>
+</body>
+</html>

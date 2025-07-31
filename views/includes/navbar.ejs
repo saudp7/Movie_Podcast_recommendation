@@ -1,0 +1,85 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-4 py-2 sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+      <i class="fas fa-film fa-lg text-danger"></i>
+      <span class="fw-bold fs-4 text-dark">CineVibes</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto d-flex align-items-center gap-3">
+
+        <!-- Navigation Links -->
+        <li class="nav-item">
+          <a class="nav-link active text-dark" href="/movie">
+            <i class="fas fa-clapperboard me-1"></i>Movies
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/webseries">
+            <i class="fas fa-tv me-1"></i>Webseries
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/cartoons">
+            <i class="fas fa-child me-1"></i>Cartoons
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/podcasts">
+            <i class="fas fa-podcast me-1"></i>Podcasts
+          </a>
+        </li>
+
+        <!-- Static Genre Filter -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" id="genreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-filter me-1"></i>Genre
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="genreDropdown">
+            <li><a class="dropdown-item" href="/filter?genre=Action">Action</a></li>
+            <li><a class="dropdown-item" href="/filter?genre=Drama">Drama</a></li>
+            <li><a class="dropdown-item" href="/filter?genre=Comedy">Comedy</a></li>
+            <li><a class="dropdown-item" href="/filter?genre=Horror">Horror</a></li>
+            <li><a class="dropdown-item" href="/filter?genre=Thriller">Thriller</a></li>
+            <li><a class="dropdown-item" href="/filter?genre=Health">Health</a></li>
+            <li><a class="dropdown-item" href="/filter?genre=Wellness">Wellness</a></li>
+          </ul>
+        </li>
+
+        <!-- Search Form -->
+        <li class="nav-item d-flex align-items-center">
+          <form class="d-flex" role="search" action="/search" method="GET">
+            <input
+              class="form-control form-control-sm me-2 rounded-pill"
+              type="search"
+              placeholder="Search title"
+              name="q"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-danger btn-sm rounded-pill" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </li>
+        <!-- Logout Button -->
+        <li class="nav-item">
+          <form action="/logout" method="POST" class="d-inline">
+            <button class="btn btn-danger btn-sm rounded-pill d-flex justify-content-center align-items-center p-2" type="submit" style="width: 40px; height: 40px;">
+              <i class="fas fa-sign-out-alt"></i>
+            </button>
+          </form>
+        </li>
+        
+
+
+      </ul>
+    </div>
+  </div>
+</nav>
